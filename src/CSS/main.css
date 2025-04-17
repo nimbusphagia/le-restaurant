@@ -1,0 +1,50 @@
+body{
+    font-family: Helvetica, Arial;
+    margin: 0;
+    --border-bot: 2px solid black;
+    --title-color: #fff9e9;
+    --nav-color:#ffae6c;
+    --secondary-color:#ffffff;
+    --secondary-bg:#f6d3d33a;
+    --backdrop:#ffba7e;
+    
+}
+/*Navigation bar*/
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    background-color: var(--nav-color);
+}
+.navbar button{
+    padding: 0.7em 0.7em;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+/*Title banner*/
+.banner{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: var(--border-bot);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.banner .title{
+    font-size: 4em;
+    color: var(--title-color);
+    backdrop-filter: blur(2px);
+}
+/*buttons*/
+
+.navbar button:hover{
+    background-color: white;
+    color: var(--nav-color);
+}
