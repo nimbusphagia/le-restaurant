@@ -43,5 +43,5 @@ function Buttons() {
     return {btnLinks}; 
 }
 const pages = Buttons();
-window.onload(showHome());
+showHome();
 pages.btnLinks();
